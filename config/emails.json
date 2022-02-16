@@ -1,0 +1,11 @@
+{
+    "sendReaded" : false,
+    "days" : 30,
+    "cron" : "0 */1 * * * *",
+    "emails" : [
+        { "mail" : "123@sina.com", "pass" : "123" },
+    ],
+    "sendTo" : "admin@qq.com",
+    "sender" : { "mail" : "123@sina.com", "pass" : "123" },
+    "outputFolder" : "./output"
+}

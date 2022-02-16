@@ -1,0 +1,92 @@
+{
+    "sina" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.sina.com",
+            "port" : 143,
+            "tls" : false
+        },
+        "read2" : {
+            "type" : "pop3",
+            "host" : "pop.sina.com",
+            "port" : 110,
+            "tls" : false
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.sina.com",
+            "port" : 25,
+            "tls" : false
+        }
+    },
+    "163" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.163.com",
+            "port" : 143,
+            "tls" : false
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.163.com",
+            "port" : 25,
+            "tls" : false
+        }
+    },
+    "aliyun" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.aliyun.com",
+            "port" : 993,
+            "tls" : true
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.aliyun.com",
+            "port" : 25,
+            "tls" : false
+        }
+    },
+    "gmail" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.gmail.com",
+            "port" : 993,
+            "tls" : true
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.gmail.com",
+            "port" : 25,
+            "tls" : false
+        }
+    },
+    "qq" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.qq.com",
+            "port" : 143,
+            "tls" : false
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.163.com",
+            "port" : 25,
+            "tls" : false
+        }
+    },
+    "yeah" : {
+        "read" : {
+            "type" : "imap",
+            "host" : "imap.yeah.net",
+            "port" : 143,
+            "tls" : false
+        },
+        "send" : {
+            "type" : "smtp",
+            "host" : "smtp.yeah.net",
+            "port" : 25,
+            "tls" : false
+        }
+    }
+}
